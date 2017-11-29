@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Code in the dark</title>
+	<style>
+		body {
+			color: #555;
+			font-size: 16px;
+			font-family: sans-serif;
+			padding: 0;
+		}
+		header {
+			justify-content: space-around;
+			display: flex;
+			align-items: center;
+			height: 50px;		
+		}
+		header img{
+			position: fixed;
+			left: 40px;
+		}
+		.menu{
+			list-style-type: none;
+			float: right;
+			position: fixed;
+			right: 40px;
+		}
+		.menu li {
+			margin: 10px;
+			display: inline-block;
+			font-size: 10px;
+		}
+		.main {
+			padding: 50px 40px;
+			background-color: lightGray;
+			max-width: 100%;
+			display: flex;
+			margin-bottom: 10px;
+		}
+		.left{
+			position: relative;
+		}
+		.right {
+			display: flex;
+			flex-direction: column;
+			margin: 0 10px;
+		}
+		#one {
+			margin-bottom: 5px;
+		}
+		#two {
+			margin-top: 5px;
+		}
+		.footer {
+			display: flex;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="assets/logo.png">
+		<div class="menu">
+			<li><strong>HOME</strong></li>
+			<li><strong>ABOUT</strong></li>
+			<li><strong>WORK</strong></li>
+			<li><strong>CONTACT</strong></li>
+		</div>
+	</header>
+	<div class="main">
+			<img class="left" src="assets/left.jpg">
+			<div class="right">
+				<img id="one" src="assets/topRight.jpg">
+				<img id="two" src="assets/bottomRight.jpg">
+			</div>
+	</div>
+	<div class="footer">
+		<div class="article">
+			<h1>Art Of Coding</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna ut consequat siad esqudiat dolor</p>
+			<h3>READ MORE</h3>
+		</div>
+		<div class="article">
+			<h1>Clean Design</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna ut consequat siad esqudiat dolor</p>
+			<h3>READ MORE</h3>
+		</div>
+		<div class="article">
+			<h1>Amazing Support</h1>
+			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna ut consequat siad esqudiat dolor</p>
+			<h3>READ MORE</h3>
+		</div>
+	</div>
+</body>
+</html>
